@@ -946,7 +946,7 @@ marquee{
     nav{
     background: linear-gradient(to left, red , blue);
     position: absolute;
-    width: 100%;
+    width: 107%;
     height: 25vh;
     color: white;
     display: flex;
@@ -1029,6 +1029,7 @@ marquee{
     position: absolute;
     top: 25%;
     font-size: 20px;
+    width: 107%;
     color: white;
    background: linear-gradient(to left, blue , red , yellow);
    font-family: 'Poppins', sans-serif;
@@ -1064,7 +1065,7 @@ marquee{
 }
 
 #vmad{
-    width: 30vw;
+    width: 40vw;
     left: 30%;
 }
 
@@ -1089,7 +1090,7 @@ marquee{
     left: 5%;
     top: 5%;
     width: 80vw;
-    height: 80vh;
+    height: 70vh;
     margin: 0%;
     font-size: 12px;
 }
@@ -1323,7 +1324,7 @@ marquee{
 }
 
 #psubmit{
-       font-size: 40px;
+       font-size: 30px;
       border: 1px solid black;
       width: 40vw;
       height: 60px;
