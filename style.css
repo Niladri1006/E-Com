@@ -868,7 +868,435 @@ marquee{
 #modbtn{
     font-size: 20px;
       border: 1px solid black;
-      width: 7vw;
+      width: 25vw;
+      height: 40px;
+      border-radius: 10px;
+      margin: 3px;
+      cursor: pointer;
+}
+
+.modal button:hover{
+    border: 1px solid red;
+    color: red;
+    transition: 750ms;
+}
+
+#pclose{
+     font-size: 20px;
+      border: 1px solid black;
+      width: 10vw;
+      height: 40px;
+      border-radius: 10px;
+      margin: 3px;
+      cursor: pointer;
+      position: absolute;
+      top: 15%;
+      left: 75%;
+}
+
+#psubmit{
+       font-size: 40px;
+      border: 1px solid black;
+      width: 40vw;
+      height: 60px;
+      border-radius: 10px;
+      margin: 50px;
+      cursor: pointer;
+}
+
+#psubmit:hover{
+        border: 1px solid red;
+    color: red;
+    transition: 750ms;
+}
+
+.pmodal img{
+    width: 10vw;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+
+    body{
+        background-color: white;
+    }
+
+
+    nav{
+    background: linear-gradient(to left, red , blue);
+    position: absolute;
+    width: 100%;
+    height: 25vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+    .links{
+    position: absolute;
+    left: 0%;
+    top: 60%;
+    display: flex;
+
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    
+}
+
+.srch{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%);
+}
+
+#search{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    margin: 20px;
+    width: 30vw;
+}
+
+
+
+#sbtn{
+       font-size: 20px;
+      border: none;
+      width: 20vw;
+      height: 45px;
+      border-radius: 10px;
+      margin: 3px;
+      cursor: pointer;
+}
+
+#clr{
+      position: absolute;
+      top: 25%;
+       font-size: 20px;
+      border: none;
+      width: 20vw;
+      height: 45px;
+      border-radius: 10px;
+      margin: 5px;
+      cursor: pointer;
+      background-color: maroon;
+      color: white;
+}
+
+#profile{
+    left: 145%;
+    top: -120%;
+}
+
+#notification{
+    left: 90%;
+    top: 0%;
+}
+
+
+marquee{
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
+    color: white;
+   background: linear-gradient(to left, blue , red , yellow);
+   font-family: 'Poppins', sans-serif;
+}
+
+/*Ad*/
+
+.sp{
+    width: 14vw;
+    height: 7vh;
+    font-size: 14px;
+    left: 80%;
+}
+
+.ad{
+    height: 60vh;
+    width: 80vw;
+    top: 63%;
+}
+#adimg{
+    height: 40vh;
+    width: 70vw;
+}
+
+#right,#left{
+    font-size: 30px;
+    width: 8vw;
+    top: 70%;
+}
+
+#left{
+    left: 6%;
+}
+
+#vmad{
+    width: 30vw;
+    left: 30%;
+}
+
+.main{
+    display: none;
+}
+
+
+
+
+
+
+
+#close{
+    left: 80%;
+    width: 40px;
+    top: 2%;
+}
+
+.modal{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 80vw;
+    height: 80vh;
+    margin: 0%;
+    font-size: 12px;
+}
+
+#modimg{
+    width: 40vw;
+}
+
+#modbtn{
+    width: 30vw;
+}
+
+
+
+/*Products*/
+
+.main{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.products-1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.products-2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    position: absolute;
+    top: 100%;
+}
+
+.products-1 img,
+.products-2 img{
+    width: 80vw;
+}
+
+.card1,.card2,
+.card3,.card4,
+.card5,.card6,
+.card7,.card8{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid blue;
+    height: 90vh;
+    border-radius: 20px;
+    width: 80vw;
+
+}
+
+.card1 h2,.card2 h2,
+.card3 h2,.card4 h2,
+.card5 h2,.card6 h2,
+.card7 h2,.card8 h2{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif; 
+}
+
+.head{
+    position: absolute;
+      top: 100%;
+      font-size: 50px;
+      left: 50%;
+    transform: translate(-50%);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.card1 button,.card2 button,
+.card3 button,.card4 button,
+.card5 button,.card6 button,
+.card7 button,.card8 button{
+      font-size: 20px;
+      border: 1px solid black;
+      width: 40vw;
+      height: 40px;
+      border-radius: 10px;
+      margin: 3px;
+      cursor: pointer;
+}
+
+.card1 button:hover,.card2 button:hover,
+.card3 button:hover,.card4 button:hover,
+.card5 button:hover,.card6 button:hover,
+.card7 button:hover,.card8 button:hover{
+    border: 1px solid red;
+    color: red;
+    transition: 750ms;
+}
+
+#atc1,#atc2,
+#atc3,#atc4,
+#atc5,#atc6,
+#atc7,#atc8{
+    background-color: maroon;
+    color: white;
+    border: none;
+}
+
+
+/*Cart system*/
+
+
+
+.head1{
+      position: absolute;
+      top: 23%;
+      font-size: 50px;
+      left: 50%;
+    transform: translate(-50%);
+    font-family: 'Poppins', sans-serif;
+}
+
+#cartlist{
+    position: absolute;
+    top: 35%;
+  }
+
+
+   #c1,#c2,#c3,#c4,
+   #c5,#c6,#c7,#c8{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+   #c1 img,#c2 img,#c3 img,#c4 img,
+#c5 img,#c6 img,#c7 img,#c8 img{
+     width:200px !important;
+}
+
+    #c1 h1,#c2 h1,#c3 h1,#c4 h1,
+    #c5 h1,#c6 h1,#c7 h1,#c8 h1{
+        font-size: 18px;
+    }
+
+   #c1 h2,#c2 h2,#c3 h2,#c4 h2,
+   #c5 h2,#c6 h2,#c7 h2,#c8 h2{
+        font-size: 15px;
+    }
+
+
+/*Profile system*/
+
+
+#pmod {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); 
+    background: rgba(0, 0, 0, 0.3); 
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.pmodal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80vw;
+    height: 75vh;
+    max-width: 90%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
+    border: 2px solid red;
+}
+
+.pmodal span{
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pmodal input{
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pmodal h1{
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#modbtn{
+    font-size: 20px;
+      border: 1px solid black;
+      width: 30vw;
       height: 40px;
       border-radius: 10px;
       margin: 3px;
